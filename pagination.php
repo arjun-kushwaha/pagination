@@ -47,4 +47,7 @@ public function index(){
 	//$this->load->view('template/footer');
 	
 	}  
+	
+	#paste this line where you want to show pagination menu
+	<div class="text-center"><?php echo $this->pagination->create_links(); ?></div>
 
